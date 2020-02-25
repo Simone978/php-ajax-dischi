@@ -1,3 +1,28 @@
+$mainBackgroundColor: #191919;
+
+
 body {
-  background-color: green;
+  background-color: $mainBackgroundColor;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+.dischi_container {
+  width: 280px;
+  height: 400px;
+  text-align: center;
+  background-color: black;
+  margin: 30px;
+  img {
+    height: 250px;
+    padding-top: 30px;
+  }
+  h2, h4, h5 {
+    color: white;
+    line-height: 5px;
+  }
 }

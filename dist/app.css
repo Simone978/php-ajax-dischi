@@ -1,4 +1,31 @@
 body {
-  background-color: green;
+  background-color: #191919;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.dischi_container {
+  width: 280px;
+  height: 400px;
+  text-align: center;
+  background-color: black;
+  margin: 30px;
+}
+
+.dischi_container img {
+  height: 250px;
+  padding-top: 30px;
+}
+
+.dischi_container h2,
+.dischi_container h4,
+.dischi_container h5 {
+  color: white;
+  line-height: 5px;
 }
 
