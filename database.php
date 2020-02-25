@@ -44,15 +44,15 @@ $dischi = [
     'poster' => 'https://img.discogs.com/4VnaPrww7S6I9z0iZxoGsDvP-Vo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-81692-1538992531-7551.jpeg.jpg'
   ],
   [
-    'title' => 'Closer',
-    'author' => 'Joy Division',
+    'title' => 'Eagles Live',
+    'author' => 'Eagles',
     'year' => 1980,
-    'poster' => 'https://img.discogs.com/4VnaPrww7S6I9z0iZxoGsDvP-Vo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-81692-1538992531-7551.jpeg.jpg'
+    'poster' => 'https://img.discogs.com/7AUITW3viCMd66MQgBoHkAnT0Rs=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-808486-1371963211-9934.jpeg.jpg'
   ],
   [
-    'title' => 'Closer',
-    'author' => 'Joy Division',
-    'year' => 1980,
-    'poster' => 'https://img.discogs.com/4VnaPrww7S6I9z0iZxoGsDvP-Vo=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-81692-1538992531-7551.jpeg.jpg'
+    'title' => 'Procol Harum',
+    'author' => 'Procol Harum',
+    'year' => 1973,
+    'poster' => 'https://img.discogs.com/Xa-ZkYIV2PMa2zhTXEFor4V-5Z8=/fit-in/500x496/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-4988765-1381521094-9846.jpeg.jpg'
   ],
 ];
