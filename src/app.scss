@@ -1,8 +1,26 @@
 $mainBackgroundColor: #191919;
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   background-color: $mainBackgroundColor;
+}
+.wrapper_bar{
+  width: 100%;
+  background-color: black;
+  .bar {
+    width: 70%;
+    margin: auto;
+    height: 50px;
+    img {
+      height: 30px;
+      margin: 10px 30px;
+    }
+  }
 }
 
 .wrapper {
@@ -23,6 +41,6 @@ body {
   }
   h2, h4, h5 {
     color: white;
-    line-height: 5px;
+    line-height: 30px;
   }
 }

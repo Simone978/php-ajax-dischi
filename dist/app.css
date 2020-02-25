@@ -1,5 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #191919;
+}
+
+.wrapper_bar {
+  width: 100%;
+  background-color: black;
+}
+
+.wrapper_bar .bar {
+  width: 70%;
+  margin: auto;
+  height: 50px;
+}
+
+.wrapper_bar .bar img {
+  height: 30px;
+  margin: 10px 30px;
 }
 
 .wrapper {
@@ -26,6 +48,6 @@ body {
 .dischi_container h4,
 .dischi_container h5 {
   color: white;
-  line-height: 5px;
+  line-height: 30px;
 }
 
