@@ -1,0 +1,41 @@
+
+<?php
+require __DIR__.'/database.php';
+
+ ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="dist/app.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="wrapper_bar">
+      <div class="bar">
+        <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png" alt="">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrapper">
+
+    </div>
+  </main>
+
+  <script id="entry-template" type="text/x-handlebars-template">
+    <div class="dischi_container">
+      <img src="{{poster}}" alt="">
+      <h2>{{title}}</h2>
+      <h4>{{author}}</h4>
+      <h5>{{year}}</h5>
+    </div>
+</script>
+  <script src="dist/app.js" charset="utf-8"></script>
+</body>
+</html>
